@@ -1,0 +1,17 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "These are my first Steps into E2E Testing, i will use Cypress in correlation with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cop": "cypress:open",
+    "crun": "cypress:run",
+    "cop-crun": "npm run cop && npm run cypress:run"
+  },
+  "author": "Adrian Jasaroska",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
